@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#383838</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="transparent_color">#66222222</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#EC1C24</color>
+    <color name="white_xam">#EEEEEE</color>
+    <color name="black">#222222</color>
+    <color name="backgroundfacebook">#8BB7F0</color>
+    <color name="backgroundGoogle">#c84444</color>
+    <color name="Xam">#CCC</color>
+    <color name="green">#76ff03</color>
+</resources>

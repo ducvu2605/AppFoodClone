@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/tv_MediumScore"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="6.8"
+                android:gravity="center"
+                android:background="@drawable/backgroud_cycle"
+                android:textColor="@color/red"
+                android:layout_margin="5dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/tv_NameREsPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nhà của VŨ"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_AddressRES"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="92/4 đường số 12 quận bình tân phường Bình hưng hoà " />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="3.8 Km"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_ImageRES"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/foodod"
+            android:scaleType="centerCrop"
+            />
+
+        <Button
+            android:id="@+id/btn_OrderRES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_buttom"
+            android:drawableTop="@drawable/ic_shipping_24dp"
+            android:text="@string/OrderFood"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ContainerCMT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_UserCmt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="6.8"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/tv_TitleCmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TitleCMT"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    />
+                <TextView
+                    android:id="@+id/tv_ContentCmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Content Comment "
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_Point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.8"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ContainerCMT2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_UserCmt2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="6.8"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/tv_TitleCmt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TitleCmt"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    />
+                <TextView
+                    android:id="@+id/tv_ContentCmt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="92/4 đường số 12 quận bình tân phường Bình hưng hoà "
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_Point2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.8 "/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="2dp"
+            >
+            <TextView
+                android:id="@+id/tv_TotalCMT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/ic_comment"
+                android:drawablePadding="5dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:id="@+id/tv_TotalPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/ic_photo"
+                android:drawablePadding="5dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

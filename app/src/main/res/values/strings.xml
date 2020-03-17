@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">foodclone</string>
+    <string name="Loading">Loading...</string>
+    <string name="Version">Version</string>
+    <string name="Email">E-mail Address</string>
+    <string name="Password">Mật Khẩu</string>
+    <string name="SignIn">Đăng Nhập</string>
+    <string name="AgainPassword">Nhập lại mật khẩu</string>
+    <string name="Or">Hoặc</string>
+    <string name="facebook_app_id">206695993730105</string> <string name="fb_login_protocol_scheme">fb206695993730105</string>
+    <string name="QuenPassword">Quên mật khẩu </string>
+    <string name="SignUp"><u>Đăng kí </u></string>
+    <string name="Place">Place</string>
+    <string name="Food">Food</string>
+    <string name="YouHadAccount">Bạn đã có tài khoảng!</string>
+    <string name="SignInByFacebook">Đăng nhập bằng Facebook</string>
+    <string name="SignInByGoogle">Đăng nhập bằng Google</string>
+    <string name="YouHadnotAccount">Bạn chưa có tài khoảng !</string>
+    <string name="Title">We just need enter your Registered Email address to send you password reset  </string>
+    <string name="ForgotPassword">Forgot Password ?</string>
+    <string name="Latest">Latest</string>
+    <string name="Category">Category</string>
+    <string name="Area">HCM</string>
+    <string name="NearBy">NearBy</string>
+    <string name="OrderDelivery">Order Delivery</string>
+    <string name="GameAndFun">Game &amp; Fun</string>
+    <string name="Reviews">Reviews</string>
+    <string name="Blogs">Blogs</string>
+    <string name="TopMembers">Top members</string>
+    <string name="OrderFood">Order Food</string>
+
+</resources>
